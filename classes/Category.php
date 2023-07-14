@@ -1,12 +1,9 @@
 <?php 
 class Category{
-    public $type;
+    public $category;
 
-    function __construct(string $_type){
-        $this->type = $_type;
+    function __construct(string $_category){
+        $this->category = $_category;
     }
 }
-
-
-
 ?>
