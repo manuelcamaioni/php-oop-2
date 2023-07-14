@@ -8,7 +8,7 @@ class Item extends Category{
     public $price;
     public $type;
 
-    function __construct(string $_description, string $_title, string $_image, string $_category, string $_type){
+    function __construct(string $_description, string $_title, string $_image, string $_category, string $_type, float $_price){
         $this->description = $_description;
         $this->title = $_title;
         $this->image = $_image;

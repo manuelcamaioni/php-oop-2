@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+}
+
+header {
+    height: 60px;
+}
+
+main {
+    height: calc(100vh - 60px);
+}
+
+button {
+    opacity: 0;
+}
+
+.dogs {
+    background: url("../img/Cane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.cats {
+    background: url("../img/gatto.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.cats:hover,
+.dogs:hover {
+    filter: grayscale(0);
+}
+
+h1.title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

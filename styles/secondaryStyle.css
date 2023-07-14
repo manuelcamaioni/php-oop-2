@@ -1,0 +1,22 @@
+.card {
+    width: calc(100% / 3 - 2rem);
+    padding: 0.3rem;
+}
+
+.img-container {
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 0.7rem;
+}
